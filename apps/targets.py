@@ -22,8 +22,8 @@ import sqlalchemy
 from sqlalchemy import create_engine
 
 #Custom modules
-#import sys
-#sys.path.insert(0,'../modules')
+import sys
+sys.path.insert(0,'../modules')
 
 import sql_helper
 import counts
