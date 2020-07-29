@@ -1,0 +1,180 @@
+.pkcalc-banner {
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  padding: 10px 0px;
+  width: 100%;
+  background: rgb(2, 21, 70);
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.pkcalc-banner > a > img {
+  height: 70px;
+  float: left;
+  padding: 10px;
+  padding-bottom: 0px;
+  transition-duration: 500ms;
+}
+
+.pkcalc-banner > a > img:hover {
+  filter: brightness(2);
+}
+
+.pkcalc-banner > img {
+  height: 36px;
+  float: right;
+  margin: 10px;
+  transition-duration: 500ms;
+}
+
+.pkcalc-banner h2 {
+  font-size: 20pt;
+  font-family: "Times";
+  font-weight: 200 !important;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+#dash-logo > img {
+  height: 26px !important;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.pkcalc-title {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.pkcalc-nav {
+  display: flex;
+  align-items: center;
+}
+
+.pkcalc-nav > a {
+  margin-right: 30px;
+  color: white;
+}
+
+#gh-link {
+  text-decoration: none;
+  font-size: 10pt;
+  font-family: sans-serif;
+  color: white;
+  border: solid 1px white;
+  border-radius: 2px;
+  padding: 5px 15px;
+  font-weight: 100;
+  position: relative;
+  top: 15px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 0px;
+  transition-duration: 400ms;
+}
+#gh-link:hover {
+  color: #dfe8f3 !important;
+  border-color: #dfe8f3 !important;
+}
+.container {
+  max-width: 1200px;
+  position: relative;
+  top: 100px;
+  margin-bottom: 30px;
+}
+
+/*My insert for search tab */
+.pkcalc-container{
+    display: flex;
+}
+/*My insert end*/
+
+/*My insert margin-bottom was 30 */
+.pkcalc-settings {
+  /* height: 270px; */
+  margin-bottom: 61px;
+  padding: 15px;
+  background: rgb(245, 247, 249);
+  border: 1px solid #e1e1e1;
+}
+
+/* My inserd data-tooltip formatting*/
+.dash-tooltip .dash-table-tooltip {
+    
+max-width: 200px !important;
+min-width: 100px !important;
+}
+/*Insert end*/
+
+.pkcalc-settings > p {
+  margin: 10px 0px 50px 10px;
+}
+
+.pkcalc-settings label {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.pkcalc-settings label div {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 12px;
+  color: grey;
+  width: 80px;
+}
+
+.pkcalc-settings input {
+  height: 30px;
+  width: 100%;
+  font-size: 12px;
+}
+
+#output {
+    
+}
+
+#input1{
+    margin-bottom: 5px;
+
+}
+
+.pkcalc-data-table {
+  /* height: 271px; */
+  overflow: auto;
+}
+
+#data-table td {
+  padding: 5px 15px;
+}
+
+.pkcalc-results-table {
+  overflow: auto;
+}
+
+#results-table td {
+  padding: 12px 0px;
+  text-align: center;
+  background: rgb(245, 247, 249);
+}
+
+#results-graph {
+  border: 1px solid #e1e1e1;
+}
+
+td {
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+}
+
+th {
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 12px;
+}
