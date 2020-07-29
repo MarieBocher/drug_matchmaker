@@ -94,7 +94,7 @@ layout =  html.Div(
                        html.Div(
                            className = 'eight columns pkcalc-settings',
                            children = [
-                               html.P('Seamus is currently enrolled in a Master of Biotechnology at the University of Queensland where he will explore the intersection of health and artificial intelligence. He has accepted a position with a management consulting firm later this year where he hopes to use his diverse experience in health and data science to use the push evidence-based decision making using the most recent and relevant analytical tools. Seamus was also born in Spain and grew up in China until the age of 15 before completing his secondary and tertiary education in Australia. A benefit of his upbringing is that he speaks Mandarin, Catalan, Spanish and English fluently and will always use his languages to promote the globalization of healthcare and business')
+                               html.P('Seamus is currently enrolled in a Master of Biotechnology at the University of Queensland where he will explore the intersection of health and artificial intelligence. He also works for a drug development group where he will apply this "Drug Matchmaker" to the companies drug assets to facilitate business development. Seamus was born in Spain and grew up in China before completing his secondary and tertiary education in Australia so he speaks English, Mandarin, Catalan and Spanish fluently and hopes to use his languages and cultural background to promote the globalization of healthcare, technology and business.')
                            ],
                        ), #divCV
                        html.Div(
